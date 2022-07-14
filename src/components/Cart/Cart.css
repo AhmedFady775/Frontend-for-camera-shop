@@ -1,0 +1,40 @@
+.Background_Cart {
+  background: #eaeded;
+  display: flex;
+  justify-content: center;
+  min-height: 719px;
+  padding: 20px;
+}
+
+.Shopping_Cart {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: fit-content;
+  flex-direction: column;
+}
+
+.Cart_Title {
+  display: flex;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.Descreption {
+  font-size: 30px;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 27px;
+  font-size: 25px;
+  border-bottom: 2px solid rgb(73, 73, 73);
+}
+
+.Bought_Item {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}

@@ -1,0 +1,40 @@
+/* footer container */
+
+.footer-container {
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  max-width: auto;
+  /* margin-top: 100px; */
+}
+
+/* Social Icons */
+
+.social-icon-link {
+  color: #fff;
+  font-size: 24px;
+}
+
+.social-media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.social-media-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.social-logo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.website-rights {
+  color: #fff;
+}

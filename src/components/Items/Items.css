@@ -1,0 +1,30 @@
+.camera {
+  margin-top: 15px;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.pic {
+  display: flex;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.Items__Information__Table {
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+}
+
+.price__1 {
+  font-size: 25px;
+  align-items: center;
+  position: absolute;
+  transform: translate(1720px, -100px);
+}

@@ -1,0 +1,93 @@
+.navbar {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.navbar-logo {
+  justify-content: flex-end;
+  margin-left: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: 500ms;
+}
+
+/* .navbar-logo:hover {
+  transform: scale(150%);
+} */
+
+@media screen and (min-width: 960px) {
+  .navbar-logo:hover {
+    transform: scale(120%);
+  }
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 30vw;
+  justify-content: start;
+  margin-left: 800px;
+}
+
+.nav-item {
+  height: 90px;
+}
+
+.nav-links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  font-size: 25px;
+}
+
+.nav-links:hover {
+  color: rgb(252, 82, 4);
+  transition: all 0.2s ease-out;
+}
+
+.btn--outline {
+  font-size: 20px;
+  width: 150px;
+}
+
+.cart {
+  margin-right: 50px;
+  transition: 500ms;
+}
+
+.cart:hover {
+  transform: scale(120%);
+}
+
+.cart::after {
+  content: "1";
+  display: flex;
+  position: absolute;
+  width: 20px;
+  background-color: red;
+  border-radius: 200px;
+  transform: translate(60px, -75px);
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
