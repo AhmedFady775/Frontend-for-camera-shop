@@ -12,7 +12,7 @@ function Footer() {
             <img src={logo} alt="logo" width="100px" />
           </Link>
         </div>
-        <small class="website-rights">S2V © 2022</small>
+        <small class="website-rights">V2S © 2022</small>
       </div>
     </div>
   );
